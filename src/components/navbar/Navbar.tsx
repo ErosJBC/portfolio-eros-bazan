@@ -26,19 +26,19 @@ const Navbar: FunctionComponent = () => {
             <ul className={`md:inline-flex md:flex-grow w-full md:w-auto ${!click ? 'hidden' : ''}`}>
               <div className='flex flex-col align-middle md:flex-row'>
                 <li>
-                  <Link to='home' className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Inicio</Link>
+                  <Link to='home' smooth={true} duration={1000} className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Inicio</Link>
                 </li>
                 <li>
-                  <Link to='aboutme' className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Acerca de mí</Link>
+                  <Link to='aboutme' smooth={true} duration={1000} className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Acerca de mí</Link>
                 </li>
                 <li>
-                  <Link to='skills' className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Habilidades</Link>
+                  <Link to='skills' smooth={true} duration={1000} className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Habilidades</Link>
                 </li>
                 <li>
-                  <Link to='projects' className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Proyectos</Link>
+                  <Link to='projects' smooth={true} duration={1000} className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Proyectos</Link>
                 </li>
                 <li>
-                  <Link to='contact' className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Contacto</Link>
+                  <Link to='contact' smooth={true} duration={1000} className='inline-flex w-full cursor-pointer md:w-auto px-5 py-2 rounded hover:text-slate-900 hover:bg-slate-100 transition-all duration-500'>Contacto</Link>
                 </li>
               </div>
             </ul>
