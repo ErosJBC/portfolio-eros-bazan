@@ -1,0 +1,28 @@
+{
+    "remotePath": "./portfolio.fortly.me",
+    "host": "fortly.me",
+    "username": "tbluyxfi",
+    "password": "He42!4ldoJJM7",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": ["build/"],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "node_modules"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
