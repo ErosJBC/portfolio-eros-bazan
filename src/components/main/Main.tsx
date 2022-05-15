@@ -1,8 +1,15 @@
 import React from 'react'
+import { Home, AboutMe, Skills, Projects, Contact } from '../../views'
 
 const Main = () => {
   return (
-    <div>Hola, soy el Main</div>
+    <>
+      <Home />
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
+    </>
   )
 }
 
